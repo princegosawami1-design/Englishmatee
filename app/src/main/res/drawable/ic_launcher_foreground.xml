@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Speech bubble background shape centered at 54, 54 -->
+    <path
+        android:pathData="M34,32 C28.5,32 24,36.5 24,42 L24,62 C24,67.5 28.5,72 34,72 L42,72 L42,80 L52,72 L74,72 C79.5,72 84,67.5 84,62 L84,42 C84,36.5 79.5,32 74,32 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="24"
+                android:startY="32"
+                android:endX="84"
+                android:endY="80"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#FF8A00" />
+                <item android:offset="1.0" android:color="#FF5722" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Stylized "E" / Dialogue Waves / Headset inside speech bubble in clean white -->
+    <!-- Stylized English 'E' / speech sound waves -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M38,42 L58,42 C60.2,42 62,43.8 62,46 C62,48.2 60.2,50 58,50 L44,50 L44,53 L55,53 C56.6,53 58,54.4 58,56 C58,57.6 56.6,59 55,59 L44,59 L44,62 L58,62 C60.2,62 62,63.8 62,66 C62,68.2 60.2,70 58,70 L38,70 C36.9,70 36,69.1 36,68 L36,44 C36,42.9 36.9,42 38,42 Z" />
+
+    <!-- AI Sparkle / Star accent top right -->
+    <path
+        android:fillColor="#FFE082"
+        android:pathData="M70,38 L72,43 L77,45 L72,47 L70,52 L68,47 L63,45 L68,43 Z" />
+
+</vector>

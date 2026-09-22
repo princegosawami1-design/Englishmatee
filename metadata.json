@@ -1,0 +1,6 @@
+{
+  "name": "EnglishMate",
+  "description": "Your Personal English Learning Companion - assess your CEFR level, follow a personalized daily plan, practice skills, and talk to an AI English tutor in real time.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
